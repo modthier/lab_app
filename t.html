@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><?php if (isset($_GET['title'])) { echo $_GET['title'] ;}else {echo "Lab";} ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--
+    =========================================================
+    * ArchitectUI HTML Theme Dashboard - v1.0.0
+    =========================================================
+    * Product Page: https://dashboardpack.com
+    * Copyright 2019 DashboardPack (https://dashboardpack.com)
+    * Licensed under MIT (https://github.com/DashboardPack/architectui-html-theme-free/blob/master/LICENSE)
+    =========================================================
+    -->
+    <link href="./main.css" rel="stylesheet">
+    
+    <link href="./assets/css/jquery-ui.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap-tokenfield.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/select2.min.css">
+    <style type="text/css">
+        .select2-container .select2-selection--multiple {
+            height: calc(2.25rem + 2px);
+        }
+
+        .select2-container .select2-selection--single {
+          height: calc(2.25rem + 2px);
+        }
+
+        .box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .box div {
+          width: 100px;
+          height: 100px;
+        }
+
+        .info {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+<div class="main-card mb-3 card">
+
+ 	<form method="post" action="controller/inv/save.php">
+
+ 	    <input type="hidden" name="service_id" value="9">
+
+ 	    <input type="hidden" name="request_id" value="27">
+
+ 	    <input type="hidden" name="test_id" value="16">
+
+ 	    <div class="card-body">
+
+ 	    
+
+
+
+
+
+ 
+ 
+ 
+<div class="form-row">
+
+					 <div class="col-md-12">
+						<div class="position-relative form-group">
+
+						  <label>Net%</label>
+
+						  <input type="number" name="result-11" class="form-control" required="">
+
+						</div>
+
+					 </div>
+
+
+				 
+ </div>
+<div class="form-row">
+
+					 <div class="col-md-6">
+						<div class="position-relative form-group">
+
+						  <label>Lym</label>
+
+						  <input type="number" name="result-12" class="form-control" required="">
+
+						</div>
+
+					 </div>
+
+
+					 <div class="col-md-6">
+
+						<div class="position-relative form-group">
+
+						  <label>Refrance</label>
+
+						  <select class="custom-select" name="reference_id-12" required="">
+
+						     
+						     <option></option>
+
+						     
+						     	
+						     	<option value="235">
+						     	M : up to 30 # F : up to 13</option>
+
+						     
+
+						  </select>
+
+						</div>
+
+					 </div>
+
+
+					 <div class="col-md-6">
+
+						<div class="position-relative form-group">
+
+						  <label>Unit</label>
+
+						  <select class="custom-select" name="unit_id-12" required="">
+
+						     
+						     <option></option>
+
+						     
+						     	
+						     	<option value="3">
+						     	H.P.F</option>
+
+						     
+
+						  </select>
+
+						</div>
+
+					 </div>
+
+</div> 
+
+				 
+ 
+<div class="form-row">
+
+					 <div class="col-md-12">
+						<div class="position-relative form-group">
+
+						  <label>Mot</label>
+
+						  <input type="number" name="result-13" class="form-control" required="">
+
+						</div>
+
+					 </div>
+
+
+				 
+ </div>
+<div class="form-row">
+
+					 <div class="col-md-6">
+						<div class="position-relative form-group">
+
+						  <label>Eosin</label>
+
+						  <input type="number" name="result-14" class="form-control" required="">
+
+						</div>
+
+					 </div>
+
+
+					 <div class="col-md-6">
+
+						<div class="position-relative form-group">
+
+						  <label>Refrance</label>
+
+						  <select class="custom-select" name="reference_id-14" required="">
+
+						     
+						     <option></option>
+
+						     
+						     	
+						     	<option value="236">
+						     	Men &lt; 50 yrs : 0 ........15 # Men &gt; 50 yrs : 0 ......... 20 # Men &gt; 50 yrs : 0 ......... 30 #Children : 0 ......... 10</option>
+
+						     
+
+						  </select>
+
+						</div>
+
+					 </div>
+
+
+					 <div class="col-md-6">
+
+						<div class="position-relative form-group">
+
+						  <label>Unit</label>
+
+						  <select class="custom-select" name="unit_id-14" required="">
+
+						     
+						     <option></option>
+
+						     
+						     	
+						     	<option value="3">
+						     	H.P.F</option>
+
+						     
+
+						  </select>
+
+						</div>
+
+					 </div>
+
+					</div> 
+
+				 
+ 
+<div class="form-row">
+
+					 <div class="col-md-12">
+						<div class="position-relative form-group">
+
+						  <label>Comment CBC</label>
+
+						  <input type="text" name="result-15" class="form-control" required="">
+
+						</div>
+
+					 </div>
+
+
+				 </div> 
+
+				 
+ 
+<div class="form-row">
+
+					 <div class="col-md-6">
+						<div class="position-relative form-group">
+
+						  <label>TWBCs</label>
+
+						  <input type="number" name="result-10" class="form-control" required="">
+
+						</div>
+
+					 </div>
+
+
+					 <div class="col-md-6">
+
+						<div class="position-relative form-group">
+
+						  <label>Refrance</label>
+
+						  <select class="custom-select" name="reference_id-10" required="">
+
+						     
+						     <option></option>
+
+						     
+						     	
+						     	<option value="237">
+						     	Men  :13 ........18 #  Women  : 11 ......... 16 </option>
+
+						     
+
+						  </select>
+
+						</div>
+
+					 </div>
+
+
+					 <div class="col-md-6">
+
+						<div class="position-relative form-group">
+
+						  <label>Unit</label>
+
+						  <select class="custom-select" name="unit_id-10" required="">
+
+						     
+						     <option></option>
+
+						     
+						     	
+						     	<option value="3">
+						     	H.P.F</option>
+
+						     
+
+						  </select>
+
+						</div>
+
+					 </div>
+
+					</div> 
+
+				 
+</div> 
+
+	<div class="card-footer">
+
+		<div class="input-group input-group-lg">
+
+              <input type="submit" value="Save" class="btn btn-lg btn-primary">
+
+        </div>
+
+ 	    	
+ 	</div>
+
+  
+
+ </div>
+
+                       
+                    </div></form>
+
+
+                    <div class="app-wrapper-footer">
+                        <div class="app-footer">
+                            <div class="app-footer__inner">
+                                <div class="app-footer-left">
+                                   @ Khadamati Lab Management System
+                                </div>
+                                <div class="app-footer-right">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                  
+            </div>
+</body>
+</html>

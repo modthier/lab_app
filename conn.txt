@@ -1,0 +1,5 @@
+<?php 
+$dsn = 'mysql:host=localhost;dbname=id17194346_lab';
+$conn = new PDO ($dsn, 'id17194346_root', 'j66#1\maWB]^9{>n');
+$conn->query("set NAMES utf8");
+?>
