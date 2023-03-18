@@ -60,7 +60,7 @@
 	    		header("Location:../../?view=invList&title=Investigations Requested");
 				exit();
 	    	}
-    		break;
+        break;
     	
     	
     	case 'profile':

@@ -75,12 +75,15 @@ if (empty($errors)) {
 		}
 
 		if(!empty($_POST['test_id'])){
+			$i = 0;
 			foreach ($_POST['test_id'] as $value) {
 				$data = [
 					'parent_id' => $id,
-					'test_id' => $value
+					'test_id' => $value,
+					'position' => $i+1
 				];
 				$root->saveWithoutId('checkup_profile_tests',$data);
+				$i++;
 			}
 		}
 

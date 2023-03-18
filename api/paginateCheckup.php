@@ -24,7 +24,7 @@
         $output .= "<a class='btn btn-warning' target='_blanck' href='print?view=allPrintReport&sid=".$row['serviceid']."'>Print All</a> \n";
     	$output .= "</div>\n </div>\n";
     	$output .= "<div class='card-body p-0'>\n";
-    	$output .= "<div class='collapse' id='service-".$row['serviceid']."'>\n";
+    	$output .= "<div class='collapse show' id='service-".$row['serviceid']."'>\n";
     	$s = $root->getTestsByServiceId($row['serviceid']);
     	$output .= "<table class='mb-0 table table-striped'> \n
         				<thead>\n
