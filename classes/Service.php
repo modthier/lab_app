@@ -470,6 +470,19 @@
 
 	    	return $stmt;
 	    }
+
+
+		public function getLastPosition($parent_id)
+		{
+			$q = "select max(position) as pos from checkup_profile_tests where parent_id = ?";
+			$stmt = $this->conn->prepare($q);
+			$stmt->bindValue(1,$parent_id);
+			$stmt->execute();
+
+			$row = $stmt->fetch();
+
+			return $row['pos'];
+		}
 	}
 
 

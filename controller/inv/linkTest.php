@@ -16,10 +16,13 @@ if(!empty($_POST['test_id'])){
 		    header("Location:../../?view=showInv&c_id=".$_POST['parent_id']);
 		    exit();
 		}
+
+		$pos = $service->getLastPosition($_POST['parent_id']);
 		
 		$data = [
 			'parent_id' => $_POST['parent_id'],
-			'test_id' => $value
+			'test_id' => $value,
+			'position' => $pos + 1
 		];
 		$root->saveWithoutId('checkup_profile_tests',$data);
 	}

@@ -109,6 +109,7 @@ class ComposerStaticInit8444f0964f9ca1259574a255b7bb0f6e
         'C' => 
         array (
             'Complex\\' => 8,
+            'Coderatio\\SimpleBackup\\' => 23,
             'Carbon\\' => 7,
         ),
     );
@@ -191,6 +192,10 @@ class ComposerStaticInit8444f0964f9ca1259574a255b7bb0f6e
         array (
             0 => __DIR__ . '/..' . '/markbaker/complex/classes/src',
         ),
+        'Coderatio\\SimpleBackup\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coderatio/simple-backup/src',
+        ),
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
@@ -210,6 +215,23 @@ class ComposerStaticInit8444f0964f9ca1259574a255b7bb0f6e
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'CRUD' => __DIR__ . '/../..' . '/classes/CRUD.php',
+        'Coderatio\\SimpleBackup\\Exceptions\\NoTablesFoundException' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Exceptions/NoTablesFoundException.php',
+        'Coderatio\\SimpleBackup\\Foundation\\CompressBzip2' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\CompressGzip' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\CompressManagerFactory' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\CompressMethod' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\CompressNone' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\Configurator' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Configurator.php',
+        'Coderatio\\SimpleBackup\\Foundation\\Database' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Database.php',
+        'Coderatio\\SimpleBackup\\Foundation\\Mysqldump' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\Provider' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Provider.php',
+        'Coderatio\\SimpleBackup\\Foundation\\TypeAdapter' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\TypeAdapterDblib' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\TypeAdapterFactory' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\TypeAdapterMysql' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\TypeAdapterPgsql' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\Foundation\\TypeAdapterSqlite' => __DIR__ . '/..' . '/coderatio/simple-backup/src/Foundation/Mysqldump.php',
+        'Coderatio\\SimpleBackup\\SimpleBackup' => __DIR__ . '/..' . '/coderatio/simple-backup/src/SimpleBackup.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Service' => __DIR__ . '/../..' . '/classes/Service.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',

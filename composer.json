@@ -18,6 +18,8 @@
         "delight-im/auth": "^8.1",
         "picqer/php-barcode-generator": "^2.2",
         "nesbot/carbon": "^2.48",
-        "phpoffice/phpspreadsheet": "^1.18"
+        "phpoffice/phpspreadsheet": "^1.18",
+        "coderatio/simple-backup": "^1.0"
+        
 	}
 }

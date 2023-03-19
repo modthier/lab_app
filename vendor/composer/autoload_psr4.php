@@ -25,5 +25,6 @@ return array(
     'Delight\\Base64\\' => array($vendorDir . '/delight-im/base64/src'),
     'Delight\\Auth\\' => array($vendorDir . '/delight-im/auth/src'),
     'Complex\\' => array($vendorDir . '/markbaker/complex/classes/src'),
+    'Coderatio\\SimpleBackup\\' => array($vendorDir . '/coderatio/simple-backup/src'),
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
 );

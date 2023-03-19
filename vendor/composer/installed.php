@@ -5,11 +5,20 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '81960b2fa31790c55fd6b71bd8ca1c692e288968',
+        'reference' => '4cb84d97925869ed12a91e3b39695a3a7cabf673',
         'name' => 'simat/simat',
         'dev' => true,
     ),
     'versions' => array(
+        'coderatio/simple-backup' => array(
+            'pretty_version' => 'v1.0.2',
+            'version' => '1.0.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../coderatio/simple-backup',
+            'aliases' => array(),
+            'reference' => '5c8eaba17ade66c2a33e5c4d8638ed48dbacb564',
+            'dev_requirement' => false,
+        ),
         'delight-im/auth' => array(
             'pretty_version' => 'v8.3.0',
             'version' => '8.3.0.0',
@@ -178,7 +187,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '81960b2fa31790c55fd6b71bd8ca1c692e288968',
+            'reference' => '4cb84d97925869ed12a91e3b39695a3a7cabf673',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
